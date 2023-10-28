@@ -44,7 +44,6 @@ const fetchData = async () => {
   try {
     const response = await axios.get(`https://mycorse.onrender.com/https://www.workers.yomon-emas.uz/api/workers/workers/?create_date_gt=${day1}T${hour1}%3A${minute1}%3A00.999Z&create_date_lt=${day2}T${hour2}%3A${minute2}%3A00.999Z`);
     const data = response?.data;
-    console.log(data);
     const filteredData = [];
     const seenIds = new Set();
 
