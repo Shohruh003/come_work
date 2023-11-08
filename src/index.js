@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { TokenProvider } from './Context/TokenContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
-    <App />
+    <TokenProvider>
+      <App />
+    </TokenProvider>
   </Router>
 );
 
