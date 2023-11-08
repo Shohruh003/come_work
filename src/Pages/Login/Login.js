@@ -17,7 +17,7 @@ const Login = () => {
         formData.append('email', email.value);
         formData.append('password', password.value);
     
-        axios.post('https://www.api.yomon-emas.uz/api/users/token/', formData)
+        axios.post('https://mycorse.onrender.com/https://www.api.yomon-emas.uz/api/users/token/', formData)
         .then((data) => {
           if (data.data.access) {
             setToken(data.data.access);
