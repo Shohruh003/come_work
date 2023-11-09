@@ -34,7 +34,7 @@ function Users () {
 
     const fetchData = async () => {
         try {
-          const response = await axios.get('https://www.workers.yomon-emas.uz/api/get-workers');
+          const response = await axios.get('https://mycorse.onrender.com/https://www.workers.yomon-emas.uz/api/get-workers');
           setUsers(response.data)
         } catch (error) {
           console.error(error);
