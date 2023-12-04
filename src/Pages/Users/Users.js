@@ -48,13 +48,32 @@ function Users () {
         <div className='user'>
             <div>
                 <div className='user_inner'>
+                  <div className='user_searchs'>
+                    <div>
+                    <input className='fullName_search' type='text' name='name' placeholder='Глобальный поиск'/>
+                    <select className='user_gender' name="gender" id="gender-select">
+                      <option value="" selected disabled>Выберите пол</option>
+                      <option value="all">Все</option>
+                      <option value="male">Мужской</option>
+                      <option value="female">Женский</option>
+                    </select>
+                    </div>
+
+                    <div>
+                      <button className='user_saveXLS'>Сохранять XLS📄</button>
+                      <button className='user_add'>+ Добавить</button>
+                    </div>
+
+                  </div>
                     <table className="table table-bordered table-hover" id="myTable">
                         <thead>
                             <tr>
                             <th style={{width: "20px"}} className='users_heading'>#</th>
                             <th style={{width: "100px"}} className='users_heading'>Фото</th>
-                            <th  className='users_heading'>Фамилия и имя</th>
-
+                            <th className='users_heading'>Фамилия и имя</th>
+                            <th className='users_heading'>Номер телефона </th>
+                            <th className='users_heading'>Электронная почта</th>
+                            <th className='users_heading'>Должность</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -63,6 +82,9 @@ function Users () {
                         <th><p>{index + 1}</p></th>
                         <td><img className="userImg" src={(item?.image) ? item?.image : usersLogo} width='50' height='50' alt='agressiyaImg' /></td>
                         <td><p>{item?.name}</p></td>
+                        <td><p>+998942720705</p></td>
+                        <td><p>shohruhazimov0705@gmail.com</p></td>
+                        <td><p>Developer</p></td>
                         </tr>
                     ))}
                         </tbody>

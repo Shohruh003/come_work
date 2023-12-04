@@ -15,6 +15,156 @@ const currentDate = `${newYear}-${newMonth}-${newDay}`;
     const fetchDayIMonths = new Date(fetchYear, fetchMonth, 0).getDate();
     const data = [
       {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-30T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-29T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-28T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-27T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-26T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-25T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-24T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-16T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-15T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-10T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-09T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-08T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-01T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-02T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-03T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-04T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-05T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-06T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-07T13:00:28+00:00"
+      },
+      {
+        "id": 1159,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-07T13:00:28+00:00"
+      },
+      {
+        "id": 459,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-12-07T13:00:28+00:00"
+      },
+      {
+        "id": 19,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-11-07T13:00:28+00:00"
+      },
+      {
+        "id": 1594,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-11-07T13:00:28+00:00"
+      },
+      {
+        "id": 152,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-11-07T13:00:28+00:00"
+      },
+      {
+        "id": 15,
+        "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
+        "full_name": "Azimov Shohruh",
+        "create_date": "2023-11-07T13:00:28+00:00"
+      },
+      {
         "id": 159,
         "image": "http://faceids.tadi.uz/uploads/2023/11/07/face_event/130030_face_thumbnail_TdrhiQ.jpg",
         "full_name": "Azimov Shohruh",
@@ -660,6 +810,7 @@ const generateTable = () => {
         </td>
         <td><p>{item[0]?.full_name}</p></td>
         {rowCells}
+        <td className='userTables_all'><p>123</p></td>
       </tr>
     );
   });
@@ -670,14 +821,15 @@ const generateTable = () => {
 
   return (
     <table style={{ overflowX: 'auto' }} className='table table-bordered table-hover'>
-      <thead>
+      <thead className='mycomponent_head'>
         <tr style={{ textAlign: 'center', position: 'sticky', top: 0 }}>
           <th className='agressiyaModal_heading'>#</th>
           <th className='agressiyaModal_heading'>Фото</th>
           <th style={{ minWidth: '300px' }} className='agressiyaModal_heading'>Фамилия и имя</th>
           {tableHeaders}
+          <th className='agressiyaModal_heading agressiyaModal_heading1'>Всего</th>
         </tr>
-      </thead>
+      </thead>  
       <tbody>
         {tableRows}
       </tbody>

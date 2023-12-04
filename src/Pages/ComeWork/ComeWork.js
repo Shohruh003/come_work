@@ -153,10 +153,10 @@
                   </div>
                 </div>
               </div>
-              <button onClick={handleSend} className="save_button">Send</button>
+              <button onClick={handleSend} className="save_button">Применить</button>
 
 
-              <button onClick={handleSave} className="save_button save_button1">Save</button>
+              <button onClick={handleSave} className="save_button save_button1">Сохранять XLS</button>
             </div>
           </div>
         </div>

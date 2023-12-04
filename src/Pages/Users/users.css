@@ -1,7 +1,69 @@
 .users_heading {
+    position: sticky;
+    top: 0;
     font-size: 24px;
 }
 
-.user_inner {
+/* .user_inner {
     margin-top: 20px;
+} */
+
+
+.user_searchs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgba(168, 168, 168, 0.5)
+}
+
+.fullName_search {
+    padding: 2px 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.fullName_search::placeholder{
+    font-size: 18px;
+    color: black;
+}
+
+.user_gender {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.user_searchs button {
+    font-size: 18px;
+    padding: 2px 10px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.user_saveXLS {
+    color: white;
+    background-color: rgba(0, 128, 0,0.7);
+}
+
+.user_saveXLS:hover {
+    opacity: 0.7;
+}
+
+.user_saveXLS:active {
+    opacity: 0.5;
+}
+
+.user_add {
+    color: white;
+    background-color: blue;
+}
+
+.user_add:hover {
+    opacity: 0.7;
+}
+.user_add:active {
+    opacity: 0.5;
 }

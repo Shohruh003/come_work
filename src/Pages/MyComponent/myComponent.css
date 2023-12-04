@@ -23,3 +23,10 @@
     font-size: 14px;
     text-align: center;
 }
+
+
+.agressiyaModal_heading1, .userTables_all {
+    position: sticky;
+    right: 0;
+}
+
