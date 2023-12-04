@@ -121,7 +121,7 @@
       <td><img className="userImg" src={(item[0]?.image.split('').reverse().slice(0,3).reverse().join('') === 'jpg') ? item[0]?.image : usersLogo} width='50' height='50' alt='agressiyaImg' /></td>
       <td><p>{item[0]?.full_name}</p></td>
       <td><p>{new Date(item[item?.length - 1]?.create_date).toLocaleTimeString('uz-UZ', { timeStyle: 'short' })}</p></td>
-      <td><p>{new Date(item[0]?.create_date).toLocaleTimeString('uz-UZ', { timeStyle: 'short' })}</p></td>
+      <td><p>{new Date(item[0]?.create_date).toLocaleTimeString('uz-UZ', { timeStyle: 'short' }) === new Date(item[item?.length - 1]?.create_date).toLocaleTimeString('uz-UZ', { timeStyle: 'short' }) ? "--:--" : new Date(item[0]?.create_date).toLocaleTimeString('uz-UZ', { timeStyle: 'short' })}</p></td>
 
     </tr>
   ))}
