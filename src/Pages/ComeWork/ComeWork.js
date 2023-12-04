@@ -104,7 +104,7 @@
         <div>
           <div className="app_inner">
     <div className="user_table">
-    <table className="table table-striped table-hover" id="myTable">
+    <table className="table table-striped table-bordered table-hover" id="myTable">
       <thead>
         <tr>
           <th className='agressiyaModal_heading' scope="col">#</th>
